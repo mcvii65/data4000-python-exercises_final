@@ -24,16 +24,40 @@ The exercises do not require loops, lists, dictionaries, file I/O, exceptions, o
 - Collaborate ethically: discuss ideas, but submit individual code.
 - Aim to complete each exercise in 20-60 minutes.
 
-## Exercises
+---
+
+## Exercise Overview
 
 ### Exercise 1: Profit Margin Calculator
+* **File:** `exercise1_profit_calculator.py`
+* **Description:** Calculates profit and profit margin percentage based on user-inputted revenue and cost.
+* **Assumptions:** Revenue must be greater than zero to calculate margin; valid floating-point numbers are entered.
 
-File: `exercise1_profit_calculator.py`
+### Exercise 2: Credit Score Evaluator
+* **File:** `exercise2_credit_score.py`
+* **Description:** Evaluates a credit score (300–850 range) using chained conditionals to determine loan approval tier and interest rate status.
+* **Assumptions:** Credit scores outside 300–850 are flagged as invalid.
 
-Prompts for revenue and cost, then calculates and displays the product's profit and profit margin. Revenue must be greater than zero to calculate the margin.
+### Exercise 3: Customer Greeting Formatter
+* **File:** `exercise3_greeting_formatter.py`
+* **Description:** Cleans and titles user input names, extracting the first name to construct a personalized greeting.
+* **Assumptions:** Empty inputs default to a generic "Valued Customer" greeting.
 
-## Assumptions
+### Exercise 4: Tax Bracket Determiner
+* **File:** `exercise4_tax_bracket.py`
+* **Description:** Categorizes income into low, medium, or high tax brackets using functions and returns formatted estimated tax owed.
+* **Assumptions:** Negative income is treated as invalid.
 
-- Users enter valid numeric values for revenue and cost.
-- Currency values are displayed in dollars and rounded to two decimal places.
-- Negative profit is allowed and is displayed as entered by the calculation.
+### Exercise 5: Product Category Matcher
+* **File:** `exercise5_product_category_matcher`
+* **Description:** Uses Python's `match-case` statements with pattern matching to categorize retail products by profit margin.
+* **Assumptions:** Input strings are stripped and lowercased to ensure case-insensitive matching.
+
+---
+
+## Sample Run Outputs
+
+```text
+What's the revenue? 5000.0
+What's the cost? 3500.0
+Profit: $1,500.00 | Margin: 30.00%
